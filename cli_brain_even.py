@@ -20,7 +20,7 @@ def even():
 			if answer == 'no':
 				print('Correct')
 			else:
-				print(f"'yes' is wrong answer. Correct answer was 'no'/nLet's try again, {name}!")
+				print(f"'yes' is wrong answer. Correct answer was 'no'\nLet's try again, {name}!")
 				break
 		i += 1
 	if i == 4:
