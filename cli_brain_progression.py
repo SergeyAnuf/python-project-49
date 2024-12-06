@@ -17,7 +17,7 @@ def progression():
             numbers.append(number_next)
             j += 1
             number_next = number_next + sub
-        k = random.randint(1, i)
+        k = random.randint(1, i-1)
         numbers[k] = '..'
         print('What number is missing in the progression?')
         print(f'Question: {numbers}')
