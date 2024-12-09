@@ -20,7 +20,7 @@ def progression():
         k = random.randint(1, i-1)
         numbers[k] = '..'
         print('What number is missing in the progression?')
-        print(f'Question: {numbers}')
+        print(f'Question: {''.join(numbers)}')
         answer = prompt.string('Your answer: ')
         if k == 1:
             numbers[k] = numbers[k+1] - sub
