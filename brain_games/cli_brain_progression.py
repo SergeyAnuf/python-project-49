@@ -29,7 +29,7 @@ def progression():
             if int(answer) == numbers[k]:
                 print('Correct!')
             else:
-                print(f"{answer} is wrong answer. Correct answer was {numbers[k]}\nLet's try again, {name}")
+                print(f"{answer} is wrong answer. Correct answer was {numbers[k]}\nLet's try again, {name}!")
                 break
         n += 1
         if n == 4:
