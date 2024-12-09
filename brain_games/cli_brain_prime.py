@@ -25,5 +25,5 @@ def prime():
         else:
             print(f"{answer} is wrong answer. Correct answer was {result}\nLet's try again, {name}!")
         j += 1
-	if j == 4:
-		print(f'Congratulations, {name}!')
+        if j == 4:
+            print(f'Congratulations, {name}!')
