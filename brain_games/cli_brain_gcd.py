@@ -1,7 +1,6 @@
 import prompt
 import math
 import random
-
 def gcd():
 	name = prompt.string('May I have your name? ')  
 	print(f'Hello, {name}')
@@ -15,7 +14,8 @@ def gcd():
 		if int(answer) == result:
 			print('Correct!')
 		else:
-			print(f"{answer} is wrong answer. Correct answer was {result}\nLet's try again, {name}!")
+			print(f"{answer} is wrong answer. Correct answer "
+				  f"was {result}\nLet's try again, {name}!")
 			break
 		i += 1
 		if i == 4:
