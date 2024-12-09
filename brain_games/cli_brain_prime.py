@@ -10,6 +10,8 @@ def prime():
     while j <= 3:
         number = random.randint(1, 100)
         print(f'Question: {number}')
+        if number == 1:
+            result = 'yes'
         if number > 1:
             for i in range(2, (number // 2) + 1):
                 if number % i == 0:
