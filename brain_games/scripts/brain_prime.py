@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from cli_brain_prime import prime
+from python-project-49/cli_brain_prime import prime
 
 
 def main():

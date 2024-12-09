@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from cli_brain_calc import calc
+from python-project-49/cli_brain_calc import calc
 
 
 def main():

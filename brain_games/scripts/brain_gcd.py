@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from cli_brain_gcd import gcd
+from python-project-49/cli_brain_gcd import gcd
 
 
 def main():

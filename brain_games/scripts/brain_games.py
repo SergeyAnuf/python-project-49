@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from cli import welcome_user
+from python-project-49/cli import welcome_user
 
 
 def main():
