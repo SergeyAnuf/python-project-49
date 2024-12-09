@@ -14,7 +14,7 @@ def even():
 			if answer == 'yes':
 				print('Correct')
 			else:
-				print(f"'no' is wrong answer. Correct answer was 'yes'/nLet's try again, {name}!")
+				print(f"'no' is wrong answer. Correct answer was 'yes'\nLet's try again, {name}!")
 				break
 		else:
 			if answer == 'no':
@@ -24,4 +24,4 @@ def even():
 				break
 		i += 1
 	if i == 4:
-		print(f"Congratulation, {name}!")
+		print(f"Congratulations, {name}!")
