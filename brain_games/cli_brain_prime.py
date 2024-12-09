@@ -1,10 +1,13 @@
 import prompt
 import random
+
+
+
 def prime():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print('Answer "yes" if given number is prime. Otherwise '
-          'answer "no".')
+        'answer "no".')
     j = 1
     while j <= 3:
         number = random.randint(1, 100)
@@ -25,7 +28,7 @@ def prime():
             print('Correct!')
         else:
             print(f"{answer} is wrong answer. Correct answer "
-                  f"was {result}\nLet's try again, {name}!")
+            f"was {result}\nLet's try again, {name}!")
             break
         j += 1
         if j == 4:

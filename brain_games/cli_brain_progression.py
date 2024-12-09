@@ -1,5 +1,8 @@
 import prompt
 import random
+
+
+
 def progression():
     n = 1
     name = prompt.string('May I have your name? ')
@@ -30,7 +33,7 @@ def progression():
             n += 1
         else:
             print(f"{answer} is wrong answer. Correct answer "
-                  f"was {numbers[k]}\nLet's try again, {name}!")
+            f"was {numbers[k]}\nLet's try again, {name}!")
             break
         if n == 4:
             print(f'Congratulations, {name}!')
