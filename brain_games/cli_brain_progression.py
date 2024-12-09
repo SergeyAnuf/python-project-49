@@ -9,7 +9,7 @@ def progression():
     while n <= 3:
         number_1 = random.randint(1, 20)
         numbers = [number_1]
-        i = random.randint(5, 10)
+        i = random.randint(6, 10)
         sub = random.randint(1, 10)
         number_next = number_1 + sub
         j = 1
