@@ -19,4 +19,4 @@ def gcd():
 			break
 		i += 1
 		if i == 4:
-			print(f'Congratulation, {name}')
+			print(f'Congratulation, {name}!')
