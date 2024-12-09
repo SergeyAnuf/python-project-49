@@ -28,9 +28,9 @@ def progression():
             numbers[k] = numbers[k-1] + sub
             if int(answer) == numbers[k]:
                 print('Correct!')
+                n += 1
             else:
                 print(f"{answer} is wrong answer. Correct answer was {numbers[k]}\nLet's try again, {name}!")
                 break
-        n += 1
         if n == 4:
             print(f'Congratulations, {name}!')
