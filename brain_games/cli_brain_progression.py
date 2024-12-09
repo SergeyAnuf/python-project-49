@@ -34,4 +34,3 @@ def progression():
         n += 1
         if n == 4:
             print(f'Congratulations, {name}!')
-
