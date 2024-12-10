@@ -1,8 +1,6 @@
 import prompt
 import random
 
-
-
 def calc():
 	name = prompt.string('May I have your name? ')
 	print(f'Hello, {name}!')

@@ -2,8 +2,6 @@ import prompt
 import math
 import random
 
-
-
 def gcd():
 	name = prompt.string('May I have your name? ')  
 	print(f'Hello, {name}')
