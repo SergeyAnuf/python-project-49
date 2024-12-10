@@ -1,6 +1,7 @@
 import prompt
 import random
 
+
 def progression():
     n = 1
     name = prompt.string('May I have your name? ')
