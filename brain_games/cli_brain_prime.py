@@ -9,7 +9,7 @@ def prime():
         'answer "no".')
     j = 1
     while j <= 3:
-        number = random.randint(1, 100)
+        number = random.randint(2, 100)
         print(f'Question: {number}')
         if number == 1:
             result = 'yes'
