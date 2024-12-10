@@ -9,7 +9,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9.1,<4.0"
+python = "^3.8.1,<4.0"
 prompt = "^0.4.1"
 ruff = "^0.8.2"
 
