@@ -29,7 +29,7 @@ package-install:
 	python3 -m pip install --user dist/*.whl
 
 lint:
-	poetry run ruff check brain_games --fix
+	ruff check brain_games --fix
 
 .PHONY: install brain-games build publish package-install
 

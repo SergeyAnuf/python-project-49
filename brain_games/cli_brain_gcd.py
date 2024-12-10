@@ -1,6 +1,7 @@
-import prompt
 import math
 import random
+
+import prompt
 
 
 def gcd():

@@ -13,6 +13,28 @@ python = "^3.8.1,<4.0"
 prompt = "^0.4.1"
 ruff = "^0.8.2"
 
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+indent-width = 4
+show-fixes = true
+
+[tool.ruff.lint]
+fixable = ["ALL"]
+select = [
+    "E",
+    "F",
+    "UP",
+    "I",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+docstring-code-line-length = "dynamic"
+
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
